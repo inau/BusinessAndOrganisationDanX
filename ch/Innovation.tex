@@ -1,0 +1,177 @@
+\chapter{Solutions}
+In this chapter the suggested solutions to the problem are assessed.
+
+\section{Vision summaries}
+Our envisioned changes can be divided into two categories, where the first category is a tailored system and the second being an off-the shelf software solution.
+Short summaries of what functions each system can complete will be described in the  following sections.
+
+\subsection{Tailored system}
+The tailored system is envisioned in two different degrees, where the first one is a basic version that has a lesser impact on current work practices than the second. \\
+The second system has the addition of solutions to the problems and labelling to support queries that retrieve specific solutions. One of the stakeholders, Gert Philipsen, has expressed that he is interested in such an addition to the system\cite{gert003}. \\
+Henceforth we shall refer to them as the basic tailored system and the extended tailored system.
+\subsection{Off-the-shelf system}
+The off-the shelf solution is a system named Kayako\cite{website005}. It is a highly customizable software solution, which is used widely by organisations\cite{website006}. Since it is meant to be a helpdesk it cannot have “unresolved” tickets, meaning tickets that does not have a solution. 
+
+More detail on both systems will be provided in this chapter. First we will describe all the common aspects the systems have and later we will go into detail with each system.
+
+\section{Requirements}
+The next section will describe what requirements are needed to alleviate the issues which we have identified in the preliminary studies. These requirements are common for all the solutions and are needed to solve the problem.
+\subsubsection{High-level requirements}
+\textbf{AR1} \\
+The system must allow some users to evaluate customer support requests, such that the customer support performance of employees can be assessed. \\ \\
+
+\textbf{AR2} \\
+The system must allow some of its users to view unfinished customer support requests. \\ \\
+
+\textbf{AR3} \\
+The system must not change the way customers communicate with DANX. \\ \\
+\subsubsection{Requirements}
+\textbf{R1} \\
+The system must allow its users to create a ticket that includes information about:
+\begin{itemize}
+\item The person responsible for solving the problem or initially responsible for propagating the problem.
+\item The customer and contact information, including preferable contact method.
+\item Description of the problem and attached emails and/or files that relates to the problem.
+\item Time and date of creation.
+\end{itemize}
+
+\textbf{R2} \\
+The system must allow its users to edit the following information about a ticket:
+\begin{itemize}
+\item The description of a problem and attached files and/or email.
+\item The customer, contact information and preferable contact method.
+\item The person or department responsible for solving or propagating the problem.
+\item Whether it is solved or not.
+\end{itemize}
+
+\textbf{R3} \\
+When a problem has been propagated to a department or a person, the related persons must be notified. \\
+
+\textbf{R4} \\
+The system must allow its users to browse tickets based on search parameters that are relevant to the evaluation of the customer support. \\
+
+\textbf{R5} \\
+The system must allow its users to create customer and supporter entities, such that when a ticket is created, an entity can be selected to avoid the need to write all of the information about a supporter or a customer.
+
+\section{Basic tailored system}
+\subsection{Changes in work practices}
+The management at DANX will, with the proposed ticket system, be able to generate reports based on different criteria in order to evaluate the employees and work flow. To make such reports useful the management must act based on the results. In other words they must find time to optimize when a potential problem is discovered, or else the system has no advantages.\\
+The employees providing the customer support has to undergo several organisational changes. The most significant change in practice is ticket creation when a customer reports a problem. This is only necessary for employees handling the customer communication. The receiver of the problem report must specify the customer and describe the problem, and instead of using email or phone to propagate the problem, he or she must specify a department to propagate it to.\\
+The employees of a department must check for customer support requests because someone has to handle the request when it is propagated to a department.(Dette skal skrives videre når der er blevet snakket med gert)
+
+Besides the organisational practices described in [citation needed. Sol 1], it is possible to detect how fast a certain type of ticket is answered. Furthermore the management can investigate where certain types of problems are solved, thereby cutting unnecessary links away from the propagation chain.
+
+Current work practices will be altered for the operations department and the control tower.
+The employee providing first-hand support(control tower) will get the additional task of creating a ticket in the envisioned system, provided its not a trivial task. By the term trivial the definition is tasks like how to log on to a system and similar.
+Additionally the control tower employee should be able to propagate tasks to the operations department.
+The workflow of the operations department will be altered in the sense that they are assigned with the task of identifying the type of problem they have received from the control tower, providing a solution to the given problem either from already documented solutions or by propagating it to the responsible department.
+
+With this new system there will be a number of changes to organisational practices. The first is that every time the control tower, the operation, or the IT development department receives a request either by phone or email they must include it in the system by creating a new ticket and filling a problem description, the customer and the system related to the issue.
+\\
+A new practice that is introduced is that the employee has to fill out when an issue has been resolved. When the issue is resolved the employee simply finds the request and fill in the solution to the problem.
+If the employee does not know the answer to the request they need to forward it to the correct department. The control tower would often forward to the operation, and the operation would forward to the IT development department. 
+\\
+The management will also get some new work practices in terms of analyzing the data from the ticket details.
+
+\subsection{Employee qualification}
+The employees that are going to use the new system will require some new qualifications. First and foremost, all employees who do customer support, should be able to use the new system's functionality. In order to use it, employees have to write tickets which requires some specific qualifications. An employee must be able to identify right customer which the ticket is regarding. The employee must be able to attach relevant e-mails and files to the ticket in order to keep all relevant data in the system. This follows an ability to write a proper description of the problem in order to give everyone who might read it a good understanding of what problem this ticket contains. The employees should also be able to identify the responsibilities of the 2 different IT departments in order to be able to propagate the tickets properly.
+The management department of danx should be able to use the proposed IT system to complete task which can be used to get performance statistic for all of DANX customer support, the individual departments performance or the performance of specific employees. It should also be possible to investigate which customers require most support.
+In order to do this they should be able to use search filters in the program to help them find the data required. These filters should include the functionality eg. to find response times for an employee, find out which tickets are being propagated from the IT department to IT support and vice versa, find tickets based on timeframe, response status for companies and the percentage of tickets which a department have handled/propagated.
+
+
+\section{Extended tailored system}
+This section contains additional information about the extended system. The requirements, changes in work practices and qualifications described above also applies to this system.
+\subsection{Additional requirements}
+\textbf{R6} \\
+The system must allow its users to attach a solution to the ticket, and a label that identifies the problem. The solution must be able to include both text, files and emails. \\ \\
+
+\textbf{R7} \\
+The system must allow its users to browse solutions based on search parameters, that includes the label that identifies the problem.
+
+\subsection{Changes in work practices}
+Employees that provide customer support can with the addition of the extended system find solutions to problems, which changes the workflow. Instead of propagating or solving the problem directly, the employee might search for solutions to problems first, and reflect in the problem description that such a search has been done, if it is propagated.
+
+\subsection{Employee qualification}
+The employees that solve customer problems and therefore close tickets must acquire some additional qualifications to use the extended system. If the problem is not correctly labeled, they must provide the correct label to make search for the solution easier. This requires that the employee know the labels that relates to the problem that they are solving. The employee must document the solution in the form of text and possibly references to files and emails in such a way that another employee with the same problem can solve a similar problem from the description.\\
+All users of the system must be able to use the functionality to search for solutions, and have a common understanding of the problems that each label covers.
+
+The employees that are going to use the new system will require some new qualifications. First and foremost, all employees who do customer support, should be able to use the new system's functionality. In order to use it, employees have to write tickets which requires some specific qualifications. An employee must be able to identify right customer which the ticket is regarding. The employee must be able to attach relevant e-mails and files to the ticket in order to keep all relevant data in the system. This follows an ability to write a proper description of the problem in order to give everyone who might read it a good understanding of what problem this ticket contains. The employees should also be able to identify the responsibilities of the 2 different IT departments in order to be able to propagate the tickets properly.
+The management department of danx should be able to use the proposed IT system to complete task which can be used to get performance statistic for all of DANX customer support, the individual departments performance or the performance of specific employees. It should also be possible to investigate which customers require most support.
+In order to do this they should be able to use search filters in the program to help them find the data required. These filters should include the functionality eg. to find response times for an employee, find out which tickets are being propagated from the IT department to IT support and vice versa, find tickets based on timeframe, response status for companies and the percentage of tickets which a department have handled/propagated.
+
+Regardless of which department is supposed to identify the types of problems, the required qualifications for the employees will include some knowledge of using the system and some knowledge of how to identify which problems belong to which departments.
+
+In this solution the system provides problems with associated solutions.
+This further requires the employee to receive training in being able to use the search functions to improve the quality of the results.
+
+In short basic knowledge the different responsibilities the departments within DANX have.
+
+\section{Off-the-shelf system}
+The off-the-shelf solution, Kayako\cite{webpage005}, can be used as the basic or extended solution, because its functionality covers all the requirements described in the previous sections.\\	
+
+The off-the-shelf solution described in this section is found on http://www.kayako.com/
+This product is made for providing support to an end user, but can easily be configured to work as an internal report system without the need for additional modules or code.
+
+\subsection{Changes in work practices}
+The changes in work practices are the same as for the extended or basic tailored system depending on how it is used.
+\subsection{Employee qualification}
+The off-the-shelf solution distinguishes itself from the tailored solutions in the sense that more employee training is required. This is due to the complexity of the system.
+Employees might have a hard time identifying what is relevant to their task, when its cluttered with alot of unnecessary items. [Find reviews der fortæller at Kayako er for ‘cluttered’] (http://www.g2crowd.com/products/kayako/reviews?)
+
+\section{Advantages}
+The management at DANX will, with the proposed ticket system, be able to generate reports based on different criteria in order to evaluate the employees and work flow. The reports can for example be used to evaluate the following points:
+\begin{itemize}
+	\item How fast the individual employees answer different types of problems. This enables for ongoing training of the employees.
+	\item Which problems an employee is able to solve. Also enables for ongoing training of employees and ultimately makes employees able to solve instead of propagate problems.
+\item Detect if the employees propagate the tickets to the correct departments and correct the employees if they do not.
+\item Find unresolved tickets, in order to fix the problem within an acceptable timeframe. This should increase customer satisfaction as well as response times.
+\end{itemize}
+The customer support KPIs can be used to make sale to potential customers more likely because some of them demand documentation for customer support.
+
+\subsection{Specific for extended tailored system}
+If the advanced ticket system is chosen, it is, in addition to the simple ticket system, possible to evaluate the following points:
+\begin{itemize}
+	\item Detect how fast a certain type of problem, determined by a tag in the ticket system, is answered.
+\item Investigate where certain types of problems are solved, thereby possibly cutting unnecessary links away from the propagation chain.
+\item Detect if an employee is unable to fix a problem that they are supposed to be able to solve.
+\item Find a solution to a problem already solved.
+\end{itemize}
+
+\section{Disadvantages}
+Besides the advantages, the ticket system will inevitably have some disadvantages. The disadvantages include but is not limited to:
+
+\subsection{Common for all system}
+\begin{itemize}
+	\item Employees must learn to use the system.
+	\item It takes extra time to create and update the tickets.
+\end{itemize}
+
+\subsection{Specific for extended tailored system}
+The employees who solves the problem must document the solution to the problem. This can require additional time for important employees. The time of employees that solve the most problems of a department probably provides more value per hour for DANX, and because it is the solver of the problem that has to document it, it can be time of higher value that is spent.
+
+\subsection{Specific for off-the-shelf system}
+The following disadvantages may apply for the off-the-shelf system, in addition to the disadvantages described above:
+\begin{itemize}
+	\item The system may be too complicated for the relatively simple task, the system is used for.
+\end{itemize}
+
+
+\section{Implementation strategy}
+//OFF-THE-SHELF
+In regards to staff training, the extent will be the affected departments. The control tower, the operation and the IT-departments.
+
+Theres two ways to conduct the training. Either a full seminar where all the staff of the affected departments is attending.
+Or train a few employees in every department and have them train the others.
+
+Seeing DANX has a 24/7 hour hotline(control tower), its not sustainable to pull this department out for training.
+
+
+\section{Finances}
+
+
+Sovsen starter her (barely)
+
+//Advantages/disadvantages when letting control tower identify and handle requests(and logging them)
+Implementation wise the tickets can be created at two departments in DANX, either at the control tower which is the first place customers usually call or at the operations department.
+
+Advantages when creating tickets at the control tower is that they are able to capture all information provided by the customer. If they were to listen to everything, and then call the operations department, which then created the ticket, some of the information might be lost in the process.
