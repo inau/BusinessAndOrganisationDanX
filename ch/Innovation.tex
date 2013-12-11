@@ -10,10 +10,9 @@ The tailored system is envisioned in two different degrees, where the first one 
 The second system has the addition of solutions to the problems and labelling to support queries that retrieve specific solutions. One of the stakeholders, Gert Philipsen, has expressed that he is interested in such an addition to the system\cite{gert003}. \\
 Henceforth we shall refer to them as the basic tailored system and the extended tailored system.
 \subsection{Off-the-shelf system}
-The off-the shelf solution is a system named Kayako\cite{website005}. It is a highly customizable software solution, which is used widely by organisations\cite{website006}. Since it is meant to be a helpdesk it cannot have “unresolved” tickets, meaning tickets that does not have a solution. 
+The off-the shelf solution is a system named Kayako \cite{website005}. It is a highly customizable software solution, which is used widely by organisations \cite{website006}.
 
 More detail on both systems will be provided in this chapter. First we will describe all the common aspects the systems have and later we will go into detail with each system.
-
 \section{Requirements}
 The next section will describe what requirements are needed to alleviate the issues which we have identified in the preliminary studies. These requirements are common for all the solutions and are needed to solve the problem.
 \subsubsection{High-level requirements}
@@ -56,22 +55,10 @@ The system must allow its users to create customer and supporter entities, such 
 \section{Basic tailored system}
 \subsection{Changes in work practices}
 The management at DANX will, with the proposed ticket system, be able to generate reports based on different criteria in order to evaluate the employees and work flow. To make such reports useful the management must act based on the results. In other words they must find time to optimize when a potential problem is discovered, or else the system has no advantages.\\
-The employees providing the customer support has to undergo several organisational changes. The most significant change in practice is ticket creation when a customer reports a problem. This is only necessary for employees handling the customer communication. The receiver of the problem report must specify the customer and describe the problem, and instead of using email or phone to propagate the problem, he or she must specify a department to propagate it to.\\
+The employees providing the customer support has to undergo several organisational changes. The most significant change in practice is ticket creation when a customer reports a problem. This is only necessary for employees handling the customer communication. This is usually the employees of the control tower, but it can be others, like the head of the IT development department.(reference til appendix indepth current work practices) The receiver of the problem report must specify the customer and describe the problem, and instead of using email or phone to propagate the problem, he or she must specify a department to propagate it to.\\
 The employees of a department must check for customer support requests because someone has to handle the request when it is propagated to a department.(Dette skal skrives videre når der er blevet snakket med gert)
+Any employee providing customer support must edit a ticket if the information is erroneous or new information is acquired about the problem. Employees solving problems must mark a ticket solved after they have provided a solution to the problem.
 
-Besides the organisational practices described in [citation needed. Sol 1], it is possible to detect how fast a certain type of ticket is answered. Furthermore the management can investigate where certain types of problems are solved, thereby cutting unnecessary links away from the propagation chain.
-
-Current work practices will be altered for the operations department and the control tower.
-The employee providing first-hand support(control tower) will get the additional task of creating a ticket in the envisioned system, provided its not a trivial task. By the term trivial the definition is tasks like how to log on to a system and similar.
-Additionally the control tower employee should be able to propagate tasks to the operations department.
-The workflow of the operations department will be altered in the sense that they are assigned with the task of identifying the type of problem they have received from the control tower, providing a solution to the given problem either from already documented solutions or by propagating it to the responsible department.
-
-With this new system there will be a number of changes to organisational practices. The first is that every time the control tower, the operation, or the IT development department receives a request either by phone or email they must include it in the system by creating a new ticket and filling a problem description, the customer and the system related to the issue.
-\\
-A new practice that is introduced is that the employee has to fill out when an issue has been resolved. When the issue is resolved the employee simply finds the request and fill in the solution to the problem.
-If the employee does not know the answer to the request they need to forward it to the correct department. The control tower would often forward to the operation, and the operation would forward to the IT development department. 
-\\
-The management will also get some new work practices in terms of analyzing the data from the ticket details.
 
 \subsection{Employee qualification}
 The employees that are going to use the new system will require some new qualifications. First and foremost, all employees who do customer support, should be able to use the new system's functionality. In order to use it, employees have to write tickets which requires some specific qualifications. An employee must be able to identify right customer which the ticket is regarding. The employee must be able to attach relevant e-mails and files to the ticket in order to keep all relevant data in the system. This follows an ability to write a proper description of the problem in order to give everyone who might read it a good understanding of what problem this ticket contains. The employees should also be able to identify the responsibilities of the 2 different IT departments in order to be able to propagate the tickets properly.
@@ -89,34 +76,35 @@ The system must allow its users to attach a solution to the ticket, and a label 
 The system must allow its users to browse solutions based on search parameters, that includes the label that identifies the problem.
 
 \subsection{Changes in work practices}
-Employees that provide customer support can with the addition of the extended system find solutions to problems, which changes the workflow. Instead of propagating or solving the problem directly, the employee might search for solutions to problems first, and reflect in the problem description that such a search has been done, if it is propagated.
+Employees that provide customer support can with the addition of the extended system find solutions to problems, which changes the workflow. Instead of propagating or solving the problem directly, the employee might search for solutions to problems first, and reflect in the problem description that such a search has been done, if it is propagated.\\
+A new practice that is introduced is that the employee has to fill out when an issue has been resolved. When the issue is resolved the employee simply finds the request and fills in the solution to the problem.
 
 \subsection{Employee qualification}
-The employees that solve customer problems and therefore close tickets must acquire some additional qualifications to use the extended system. If the problem is not correctly labeled, they must provide the correct label to make search for the solution easier. This requires that the employee know the labels that relates to the problem that they are solving. The employee must document the solution in the form of text and possibly references to files and emails in such a way that another employee with the same problem can solve a similar problem from the description.\\
+\label{subsec:qualification}
+The employees that solve customer problems and therefore close tickets must acquire some additional qualifications to use the extended system. If the problem is not correctly labeled, they must provide the correct label to make search for the solution easier. This requires that the employee knows the labels that relate to the problem that they are solving. The employee must document the solution in the form of text and possibly references to files and emails in such a way that another employee with the same problem can solve a similar problem from the description.\\
 All users of the system must be able to use the functionality to search for solutions, and have a common understanding of the problems that each label covers.
 
 The employees that are going to use the new system will require some new qualifications. First and foremost, all employees who do customer support, should be able to use the new system's functionality. In order to use it, employees have to write tickets which requires some specific qualifications. An employee must be able to identify right customer which the ticket is regarding. The employee must be able to attach relevant e-mails and files to the ticket in order to keep all relevant data in the system. This follows an ability to write a proper description of the problem in order to give everyone who might read it a good understanding of what problem this ticket contains. The employees should also be able to identify the responsibilities of the 2 different IT departments in order to be able to propagate the tickets properly.
 The management department of danx should be able to use the proposed IT system to complete task which can be used to get performance statistic for all of DANX customer support, the individual departments performance or the performance of specific employees. It should also be possible to investigate which customers require most support.
 In order to do this they should be able to use search filters in the program to help them find the data required. These filters should include the functionality eg. to find response times for an employee, find out which tickets are being propagated from the IT department to IT support and vice versa, find tickets based on timeframe, response status for companies and the percentage of tickets which a department have handled/propagated.
 
-Regardless of which department is supposed to identify the types of problems, the required qualifications for the employees will include some knowledge of using the system and some knowledge of how to identify which problems belong to which departments.
-
-In this solution the system provides problems with associated solutions.
-This further requires the employee to receive training in being able to use the search functions to improve the quality of the results.
-
-In short basic knowledge the different responsibilities the departments within DANX have.
-
 \section{Off-the-shelf system}
-The off-the-shelf solution, Kayako\cite{webpage005}, can be used as the basic or extended solution, because its functionality covers all the requirements described in the previous sections.\\	
+The off-the-shelf solution, Kayako\cite{webpage005}, can be used as the basic or extended solution, because its functionality covers all the requirements described in the previous sections.
+Here we will not account for the SaaS solution with a monthly (or yearly) payment.\\	
 
 The off-the-shelf solution described in this section is found on http://www.kayako.com/
 This product is made for providing support to an end user, but can easily be configured to work as an internal report system without the need for additional modules or code.
 
 \subsection{Changes in work practices}
 The changes in work practices are the same as for the extended or basic tailored system depending on how it is used.
+
 \subsection{Employee qualification}
 The off-the-shelf solution distinguishes itself from the tailored solutions in the sense that more employee training is required. This is due to the complexity of the system.
-Employees might have a hard time identifying what is relevant to their task, when its cluttered with alot of unnecessary items. [Find reviews der fortæller at Kayako er for ‘cluttered’] (http://www.g2crowd.com/products/kayako/reviews?)
+Employees might have a hard time identifying what is relevant to their task, when its cluttered with a lot of unnecessary items. \cite{webpage007}
+
+The reports generated by the system must be coded by someone from the IT development department, using a “kayako query language”. This language will needed to be learned in order to update/add the reports. 
+
+A person should also be responsible for configuring the solution once it is bought. This is not a service kayako offers \cite{webpage008}. This can be a hideous task due to vast amount of configurable options in the solution.
 
 \section{Advantages}
 The management at DANX will, with the proposed ticket system, be able to generate reports based on different criteria in order to evaluate the employees and work flow. The reports can for example be used to evaluate the following points:
@@ -126,7 +114,7 @@ The management at DANX will, with the proposed ticket system, be able to generat
 \item Detect if the employees propagate the tickets to the correct departments and correct the employees if they do not.
 \item Find unresolved tickets, in order to fix the problem within an acceptable timeframe. This should increase customer satisfaction as well as response times.
 \end{itemize}
-The customer support KPIs can be used to make sale to potential customers more likely because some of them demand documentation for customer support.
+The customer support KPIs can be used to make sale to potential customers more likely because some of them demand documentation for customer support.\cite{bob01}
 
 \subsection{Specific for extended tailored system}
 If the advanced ticket system is chosen, it is, in addition to the simple ticket system, possible to evaluate the following points:
@@ -134,8 +122,11 @@ If the advanced ticket system is chosen, it is, in addition to the simple ticket
 	\item Detect how fast a certain type of problem, determined by a tag in the ticket system, is answered.
 \item Investigate where certain types of problems are solved, thereby possibly cutting unnecessary links away from the propagation chain.
 \item Detect if an employee is unable to fix a problem that they are supposed to be able to solve.
-\item Find a solution to a problem already solved.
+\item Find a solution to a problem already solved and thereby save time.
 \end{itemize}
+
+\subsection{Specific for off-the-shelf}
+In addition to the extended tailored system the off-the-shelf solution has a significant benefit, namely updates. The first year of updates are free, and each additional year is 40% based on the downloaded subscription. 
 
 \section{Disadvantages}
 Besides the advantages, the ticket system will inevitably have some disadvantages. The disadvantages include but is not limited to:
@@ -147,23 +138,35 @@ Besides the advantages, the ticket system will inevitably have some disadvantage
 \end{itemize}
 
 \subsection{Specific for extended tailored system}
+This disadvantage is in addition to the ones described above.\\
 The employees who solves the problem must document the solution to the problem. This can require additional time for important employees. The time of employees that solve the most problems of a department probably provides more value per hour for DANX, and because it is the solver of the problem that has to document it, it can be time of higher value that is spent.
 
 \subsection{Specific for off-the-shelf system}
-The following disadvantages may apply for the off-the-shelf system, in addition to the disadvantages described above:
-\begin{itemize}
-	\item The system may be too complicated for the relatively simple task, the system is used for.
-\end{itemize}
+The following disadvantage applies for the off-the-shelf system, in addition to the disadvantages described above. Learning to use the system might take longer time because the additional functionality of Kayako makes the UI more cluttered and less user friendly.
+
+If DANX requires additional functionality at some point the system may not support this, and DANX is dependant on the provider to implement this.
 
 
 \section{Implementation strategy}
-//OFF-THE-SHELF
-In regards to staff training, the extent will be the affected departments. The control tower, the operation and the IT-departments.
+This section describes the recommended implementation strategy. The purpose of this is to have a structured approach for developing the proposed system, make sure it meets the requirements and roll out the system in DANX.
+Finding a developer of the new system will be the first thing to do, if a tailored solution is chosen. In-house development is an option, but given that the IT department has enough work as it is, it would not be appropriate or clever to assign them with a completely new system to develop.
+During the development of the new system, it is important to continuously ensure that it is the right system that is being developed. This means that some DANX employees are going to spend time on evaluating the new system, via mockups and/or prototypes and confirm that it is heading in the right direction. This is important to do, in order to make sure that the system meets the requirements and is understandable to the DANX employees.
+When the system is developed and about to be rolled out, there are several approaches to be considered. Firstly it is possible to just make an all out installment of the system. This means that over a small time gap, all employees who might use the system, should have it available at their workstation and start using it from that moment. This has the advantage of being incredibly fast and easy, but it will increase the chances that the system will fail.\\
+Another way to roll out the system is to do it incrementally. Choose a sample of employees who are going to use the system and start by giving them the system and incrementally increase the amount of employees who are using the system until everybody has it. This has the advantage that only some employees will need support to get started and then as others will need support, they can receive it from their colleagues who have already used it for some time. This has the disadvantage of being slow and creating several workflows. During the time where only some employees use the system, employees with and without the system will have to do something different in their work practices, this will trouble communication in and between departments. Given that it is relatively few employees who are going to employ the system and DANX has a anarchistic approach to management, the all-out solution will be the ideal choice for deploying this system. The risk of the system failing is not so big under these circumstances.
+Before the deployment of the system, all employees will have to receive training in how to use the system, as described in section~\ref{subsec:qualification}. These training sessions should be planned as close to the deployment of the system, in order to prevent employees from forgetting too much before they start using the system.
+At last, all source code of the new system should be handed over to the IT department of DANX, in order for them to be able to maintain it and for DANX not to be bound to the developers of the system any further.
 
-Theres two ways to conduct the training. Either a full seminar where all the staff of the affected departments is attending.
-Or train a few employees in every department and have them train the others.
 
-Seeing DANX has a 24/7 hour hotline(control tower), its not sustainable to pull this department out for training.
+
+
+
+
+
+In regards to staff training, the extent will be the affected departments. The control tower, the operation and the IT department.
+
+There are two ways to conduct the training. Either a full seminar where all the staff of the affected departments is attending or train a few employees in every department and have them train the others.
+
+Since DANX has a 24/7 hour hotline(control tower), its not sustainable to pull this department out for training.
 
 
 \section{Finances}
