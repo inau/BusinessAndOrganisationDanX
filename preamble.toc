@@ -29,70 +29,70 @@
 \contentsline {subsubsection}{\numberline {1.4.3.1}Changes in work practices}{9}
 \contentsline {subsubsection}{\numberline {1.4.3.2}Employee qualification}{10}
 \contentsline {subsection}{\numberline {1.4.4}Extended tailored system}{10}
-\contentsline {subsubsection}{\numberline {1.4.4.1}Additional requirements}{10}
-\contentsline {subsubsection}{\numberline {1.4.4.2}Changes in work practices}{11}
-\contentsline {subsubsection}{\numberline {1.4.4.3}Employee qualification}{11}
+\contentsline {subsubsection}{\numberline {1.4.4.1}Changes in work practices}{10}
+\contentsline {subsubsection}{\numberline {1.4.4.2}Employee qualification}{11}
 \contentsline {subsection}{\numberline {1.4.5}Off-the-shelf system}{11}
 \contentsline {subsubsection}{\numberline {1.4.5.1}Employee qualification}{11}
-\contentsline {subsection}{\numberline {1.4.6}Advantages}{12}
+\contentsline {subsection}{\numberline {1.4.6}Advantages}{11}
 \contentsline {subsubsection}{\numberline {1.4.6.1}Specific for extended tailored system}{12}
 \contentsline {subsection}{\numberline {1.4.7}Specific for off-the-shelf}{12}
-\contentsline {subsection}{\numberline {1.4.8}Disadvantages}{13}
+\contentsline {subsection}{\numberline {1.4.8}Disadvantages}{12}
 \contentsline {subsubsection}{\numberline {1.4.8.1}Common for all system}{13}
 \contentsline {subsubsection}{\numberline {1.4.8.2}Specific for extended tailored system}{13}
 \contentsline {subsubsection}{\numberline {1.4.8.3}Specific for off-the-shelf system}{13}
 \contentsline {subsection}{\numberline {1.4.9}Finances}{13}
 \contentsline {subsubsection}{\numberline {1.4.9.1}Benefits}{13}
 \contentsline {subsubsection}{\numberline {1.4.9.2}Cost}{14}
-\contentsline {subsubsection}{\numberline {1.4.9.3}Assumptions}{16}
-\contentsline {subsubsection}{\numberline {1.4.9.4}Conclusion}{16}
-\contentsline {subsection}{\numberline {1.4.10}Implementation strategy}{17}
-\contentsline {chapter}{Appendices}{18}
-\contentsline {chapter}{\numberline {A}Project charter}{19}
-\contentsline {section}{\numberline {A.1}Introduction}{19}
-\contentsline {section}{\numberline {A.2}Purpose of project charter}{19}
-\contentsline {section}{\numberline {A.3}Premise}{19}
-\contentsline {subsection}{\numberline {A.3.1}Assignment and Objective}{19}
-\contentsline {subsection}{\numberline {A.3.2}Critical success factors}{19}
-\contentsline {subsection}{\numberline {A.3.3}Scope}{20}
-\contentsline {subsection}{\numberline {A.3.4}Methods}{20}
-\contentsline {subsection}{\numberline {A.3.5}Background}{20}
-\contentsline {subsection}{\numberline {A.3.6}SWOT}{20}
-\contentsline {chapter}{\numberline {B}Strategic alignment report}{21}
-\contentsline {section}{\numberline {B.1}Business strategy}{21}
-\contentsline {subsection}{\numberline {B.1.1}Canvas}{21}
-\contentsline {subsection}{\numberline {B.1.2}Goals}{22}
-\contentsline {subsection}{\numberline {B.1.3}Values}{22}
-\contentsline {subsection}{\numberline {B.1.4}Challenges and problems}{22}
-\contentsline {section}{\numberline {B.2}Environment}{23}
-\contentsline {subsection}{\numberline {B.2.1}Competitor analysis}{23}
-\contentsline {subsubsection}{\numberline {B.2.1.1}Competitors}{23}
-\contentsline {subsubsection}{\numberline {B.2.1.2}Substitution}{24}
-\contentsline {subsubsection}{\numberline {B.2.1.3}New market entrants}{24}
-\contentsline {subsection}{\numberline {B.2.2}SWOT}{25}
-\contentsline {section}{\numberline {B.3}Work Domains}{26}
-\contentsline {subsection}{\numberline {B.3.1}IT department}{26}
-\contentsline {subsection}{\numberline {B.3.2}Operational department}{27}
-\contentsline {subsection}{\numberline {B.3.3}IT support department}{27}
-\contentsline {subsection}{\numberline {B.3.4}Conclusion}{27}
-\contentsline {chapter}{\numberline {C}In-depth analysis phase}{28}
-\contentsline {section}{\numberline {C.1}Organisational setup}{28}
-\contentsline {section}{\numberline {C.2}Key players}{28}
-\contentsline {subsection}{\numberline {C.2.1}Lasse Trier}{28}
-\contentsline {subsection}{\numberline {C.2.2}Gert Philipsen}{28}
-\contentsline {section}{\numberline {C.3}Current work practices}{29}
-\contentsline {subsection}{\numberline {C.3.1}Stakeholder Analysis}{30}
-\contentsline {section}{\numberline {C.4}Goals, Problems and Needs}{30}
-\contentsline {subsection}{\numberline {C.4.1}Goals}{30}
-\contentsline {subsection}{\numberline {C.4.2}Problems}{31}
-\contentsline {subsection}{\numberline {C.4.3}Needs}{32}
-\contentsline {subsection}{\numberline {C.4.4}Parallel projects}{32}
-\contentsline {section}{\numberline {C.5}Ideas for solutions and suggested priorities}{32}
-\contentsline {subsubsection}{\numberline {C.5.0.1}First proposal}{33}
-\contentsline {subsubsection}{\numberline {C.5.0.2}Second proposal}{33}
-\contentsline {subsubsection}{\numberline {C.5.0.3}Customer impact}{34}
-\contentsline {chapter}{\numberline {D}Solutions}{35}
-\contentsline {subsubsection}{\numberline {D.0.0.4}Requirements}{35}
-\contentsline {subsection}{\numberline {D.0.1}Implementation strategy}{36}
+\contentsline {subsubsection}{\numberline {1.4.9.3}Conclusion}{15}
+\contentsline {subsection}{\numberline {1.4.10}Implementation strategy}{16}
+\contentsline {chapter}{Appendices}{17}
+\contentsline {chapter}{\numberline {A}Project charter}{18}
+\contentsline {section}{\numberline {A.1}Introduction}{18}
+\contentsline {section}{\numberline {A.2}Purpose of project charter}{18}
+\contentsline {section}{\numberline {A.3}Premise}{18}
+\contentsline {subsection}{\numberline {A.3.1}Assignment and Objective}{18}
+\contentsline {subsection}{\numberline {A.3.2}Critical success factors}{18}
+\contentsline {subsection}{\numberline {A.3.3}Scope}{19}
+\contentsline {subsection}{\numberline {A.3.4}Methods}{19}
+\contentsline {subsection}{\numberline {A.3.5}Background}{19}
+\contentsline {subsection}{\numberline {A.3.6}SWOT}{19}
+\contentsline {chapter}{\numberline {B}Strategic alignment report}{20}
+\contentsline {section}{\numberline {B.1}Business strategy}{20}
+\contentsline {subsection}{\numberline {B.1.1}Canvas}{20}
+\contentsline {subsection}{\numberline {B.1.2}Goals}{21}
+\contentsline {subsection}{\numberline {B.1.3}Values}{21}
+\contentsline {subsection}{\numberline {B.1.4}Challenges and problems}{21}
+\contentsline {section}{\numberline {B.2}Environment}{22}
+\contentsline {subsection}{\numberline {B.2.1}Competitor analysis}{22}
+\contentsline {subsubsection}{\numberline {B.2.1.1}Competitors}{22}
+\contentsline {subsubsection}{\numberline {B.2.1.2}Substitution}{23}
+\contentsline {subsubsection}{\numberline {B.2.1.3}New market entrants}{23}
+\contentsline {subsection}{\numberline {B.2.2}SWOT}{24}
+\contentsline {section}{\numberline {B.3}Work Domains}{25}
+\contentsline {subsection}{\numberline {B.3.1}IT department}{25}
+\contentsline {subsection}{\numberline {B.3.2}Operational department}{26}
+\contentsline {subsection}{\numberline {B.3.3}IT support department}{26}
+\contentsline {subsection}{\numberline {B.3.4}Conclusion}{26}
+\contentsline {chapter}{\numberline {C}In-depth analysis phase}{27}
+\contentsline {section}{\numberline {C.1}Organisational setup}{27}
+\contentsline {section}{\numberline {C.2}Key players}{27}
+\contentsline {subsection}{\numberline {C.2.1}Lasse Trier}{27}
+\contentsline {subsection}{\numberline {C.2.2}Gert Philipsen}{27}
+\contentsline {section}{\numberline {C.3}Current work practices}{28}
+\contentsline {subsection}{\numberline {C.3.1}Stakeholder Analysis}{29}
+\contentsline {section}{\numberline {C.4}Goals, Problems and Needs}{29}
+\contentsline {subsection}{\numberline {C.4.1}Goals}{29}
+\contentsline {subsection}{\numberline {C.4.2}Problems}{30}
+\contentsline {subsection}{\numberline {C.4.3}Needs}{31}
+\contentsline {subsection}{\numberline {C.4.4}Parallel projects}{31}
+\contentsline {section}{\numberline {C.5}Ideas for solutions and suggested priorities}{31}
+\contentsline {subsubsection}{\numberline {C.5.0.1}First proposal}{32}
+\contentsline {subsubsection}{\numberline {C.5.0.2}Second proposal}{32}
+\contentsline {subsubsection}{\numberline {C.5.0.3}Customer impact}{33}
+\contentsline {chapter}{\numberline {D}Solutions}{34}
+\contentsline {section}{\numberline {D.1}Requirements}{34}
+\contentsline {subsection}{\numberline {D.1.1}Additional requirements}{35}
+\contentsline {section}{\numberline {D.2}Assumptions}{35}
+\contentsline {section}{\numberline {D.3}Implementation strategy}{36}
 \contentsline {chapter}{\numberline {E}Figures}{38}
 \contentsline {section}{\numberline {E.1}Business Canvas}{39}
