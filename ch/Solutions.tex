@@ -33,6 +33,7 @@ The system must allow its users to create customer and supporter entities, such 
 The system must have a login or another way of having a permanent identifier for whom the user of the running process is. This is to make responsibility assignment faster, as each employee providing customer support has his own computer.~\ref{sec:workpractices}
 
 \subsection{Additional requirements}
+\label{sub:additional_requirements}
 \textbf{R6} \\
 The system must allow its users to attach a solution to the ticket, and a label that identifies the problem. The solution must be able to include both text, files and emails. \\
 
@@ -40,6 +41,7 @@ The system must allow its users to attach a solution to the ticket, and a label 
 The system must allow its users to browse solutions based on search parameters, that includes the label that identifies the problem.
 
 \section{Finances}
+\label{sec:finances}
 \subsubsection{Benefits}
 \textbf{Customer loss avoidance}
 Customer loss avoidance is calculated the same way in each of the 3 analysis. Based on the information\cite{bob004} we received from Bob the cost of implementing a new customer is 15,000 DKK for IT, 30,000 DKK for marketing and 40,000 DKK for operation. This is a total of DKK 85,000. Based on the assumptions in the assumption section~\ref{subsub:assumptions} we have included a profit of 85,000 each year. \\
@@ -47,7 +49,7 @@ Customer loss avoidance is calculated the same way in each of the 3 analysis. Ba
 \textbf{Faster solution to problems}
 Faster solutions to problems is calculated the following way:
 \[ 50 \frac{\mathrm{request}}{\mathrm{week}} \times 52 \frac{\mathrm{week}}{\mathrm{year}} \times 0.5 \frac{\mathrm{hour}}{\mathrm{request}} \times 200 \frac{\mathrm{kroner}}{\mathrm{hour}} \times 0.02 = 5200 \frac{\mathrm{kroner}}{\mathrm{year}} \]
-50 requests/week * 52 weeks/year * half an hour (0.5) / request * 0.02 (2\% of the requests can be solved due to the already existing solutions) * 200 DKK/hour. See the assumptions in section~\ref{subsub:assumptions}.
+2\% of the requests can be solved due to the already existing solutions. See the assumptions in section~\ref{subsub:assumptions}.
 This is however not included in the basic tailored solution since the solution to a problem is not documented.
 This ends up as 5200 DKK which is another positive number for the first year. As seen in the assumptions section~\ref{subsub:assumptions} the number grows with 2\% each year. This is due to the number of solutions to problems becoming larger each year.\\
 
@@ -55,7 +57,7 @@ This ends up as 5200 DKK which is another positive number for the first year. As
 As seen in section~\ref{subsub:assumptions} DANX is able to gain an additional customer each year, resulting in DANX receiving an additional 2.65 millions each year. This is not included in the initial/investment year since there will be no documentation for the KPIs that year. \\
 
 \textbf{Less time writing emails}
-Currently the operation spends time writing emails and/or rephrase emails before it is sent to the IT development department \cite{gert006} \cite{lasse003}. With the new system there is no longer a need to do this, as the request will already be written in a ticket. This is calculated as 50 requests/week * 52 weeks/year * 5 min/request * 1/60 (to convert it to hours) * 200 hourly rate.
+Currently the operation spends time writing emails and/or rephrase emails before it is sent to the IT development department \cite{gert006} \cite{lasse003}. With the new system there is no longer a need to do this, as the request will already be written in a ticket. This is calculated like so:
 \[ 50 \frac{\mathrm{requests}}{\mathrm{week}} \times 52 \frac{\mathrm{week}}{\mathrm{year}} \times 5\frac{\mathrm{minute}}{\mathrm{request}} \times \frac{1}{60} \frac{\mathrm{hour}}{\mathrm{minute}} \times 200\frac{\mathrm{kroner}}{\mathrm{hour}} \approx 43,333 \frac{\mathrm{kroner}}{\mathrm{year}} \]
 This comes out as 43.333, which is the same every year.
 
@@ -69,8 +71,7 @@ It is assumed~\ref{subsub:assumptions} that it takes 5 hours per employee for th
 
 \[ 6 \frac{\mathrm{hour}}{\mathrm{employee}} \times 8 \hspace{1mm} \mathrm{employee} \times 200 \frac{\mathrm{kroner}}{\mathrm{hour}} = 9,600 \hspace{1mm} \mathrm{kroner} \]
 
-\[ \left( 6 \frac{\mathrm{hour}}{\mathrm{employee}} \times 8 \hspace{1mm} \mathrm{employee} + 20 \hspace{1mm} \mathrm{hour} \right) \times 200 \frac{\mathrm{kroner}}{\mathrm{hour}} = 13,600 \hspace{1mm} \mathrm{kroner} \]
-5 hours * 8 employees * an hourly rate of 200 which is 8.000 for the basic system, 9.600 for the extended system and 13.600 for the off-the-shelf solution. \\
+\[ \left( 6 \frac{\mathrm{hour}}{\mathrm{employee}} \times 8 \hspace{1mm} \mathrm{employee} + 20 \hspace{1mm} \mathrm{hour} \right) \times 200 \frac{\mathrm{kroner}}{\mathrm{hour}} = 13,600 \hspace{1mm} \mathrm{kroner} \]\\
 
 \textbf{Support/Updates}
 Support and updates for kayako is 40\% off the initial price. For the Tailored systems it is 25\% as seen in section~\ref{subsub:assumptions}. For kayako this is 6.497. The tailored extended system is 12.182 and the basic tailored system is 10.151.\\
@@ -82,13 +83,12 @@ So to calculate the extended version we use:
 
 \[ 50 \frac{\mathrm{request}}{\mathrm{week}} \times 52 \frac{\mathrm{week}}{\mathrm{year}} \times 7\frac{\mathrm{minute}}{\mathrm{request}} \times \frac{1}{60} \frac{\mathrm{hour}}{\mathrm{minute}} \times 200\frac{\mathrm{kroner}}{\mathrm{hour}} \approx 60,666 \frac{\mathrm{kroner}}{\mathrm{year}} \]
 
-50 requests/week * 52 weeks/year * 14 min/request * 1/60 to convert minutes to hours * an hourly rate of 200 which is 410.982 in total. For the basic  system 14 is replaced by 7, and the new total is 266.157
 The documentation is required all years including the initial (investment) year and remains consistent. \\
 
 \textbf{Additional time spent on analysing}
 As seen in the assumptions section~\ref{subsub:assumptions} Gert is responsible for conducting the analysis. To calculate the yearly cost the following formula is used:
 \[ 1 \frac{\mathrm{analysis}}{\mathrm{week}} \times 52 \frac{\mathrm{week}}{\mathrm{year}} \times 1 \frac{\mathrm{hour}}{\mathrm{analysis}} \times 300 \frac{\mathrm{kroner}}{\mathrm{hour}} = 52,840 \frac{\mathrm{kroner}}{\mathrm{year}}\]
-1 analysis/week * 52 weeks/year * 1 hour analysis * an hourly rate of 300. This equals 52.840 and is the same for all systems and every year, except the initial/investment year, which is 0 as not enough data has been recorded.
+This equals 52.840 and is the same for all systems and every year, except the initial/investment year, which is 0 as not enough data has been recorded.
 
 \subsection{Assumptions}
 \label{subsub:assumptions}
