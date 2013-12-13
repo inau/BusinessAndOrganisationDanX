@@ -114,7 +114,7 @@ The off-the shelf solution is a system named Kayako \cite{website005}. It is a h
 More detail on both systems will be provided in this chapter. First the common aspects of the systems will be described and later the specific details of the systems are explained.
 
 \subsection{Requirements}
-The next section will describe what requirements are needed to alleviate the issues which we have identified in the preliminary studies. These requirements are common for all the solutions and are needed to solve the problem.
+The next section will describe what requirements are needed to alleviate the issues which we have identified in the preliminary studies. These requirements are common for all the solutions and are needed to solve the problem. Some of the more detailed requirements are included in the solutions appendix.~\ref{chap:solutions}
 
 \subsubsection{High-level requirements}
 \textbf{AR1} \\
@@ -125,37 +125,6 @@ The system must allow some of its users to view unfinished customer support requ
 
 \textbf{AR3} \\
 The system must not change the way customers communicate with DANX.
-
-\subsubsection{Requirements}
-\textbf{R1} \\
-The system must allow its users to create a ticket that includes information about:
-\begin{itemize}
-\item The person responsible for solving the problem or initially responsible for propagating the problem.
-\item The customer and contact information, including preferable contact method.
-\item Description of the problem and attached emails and/or files that relates to the problem.
-\item Time and date of creation.
-\end{itemize}
-
-\textbf{R2} \\
-The system must allow its users to edit the following information about a ticket:
-\begin{itemize}
-\item The description of a problem and attached files and/or email.
-\item The customer, contact information and preferable contact method.
-\item The person or department responsible for solving or propagating the problem.
-\item Whether it is solved or not.
-\end{itemize}
-
-\textbf{R3} \\
-When a problem has been propagated to a department or a person, the related person or department must be notified. \\
-
-\textbf{R4} \\
-The system must allow its users to browse tickets based on search parameters that are relevant to the evaluation of the customer support. \\
-
-\textbf{R5} \\
-The system must allow its users to create customer and supporter entities, such that when a ticket is created, an entity can be selected to avoid the need to write all of the information about a supporter or a customer. \\
-
-\textbf{R6} \\
-The system must have a login or another way of having a permanent identifier for whom the user of the running process is. This is to make responsibility assignment faster, as each employee providing customer support has his own computer.~\ref{sec:workpractices}
 
 \subsection{Basic tailored system}
 \subsubsection{Changes in work practices}
@@ -334,29 +303,4 @@ In this analysis it is not possible to look at the net cash flow and compare the
 In this cost benefit analysis we have chosen not to include roll out, integration to other systems, and data conversion. This is because There are no other systems depending on this data, and that it is not possible to convert old data, since some of it is not available (for example phone calls). Time is not a critical factor for the project, hence why there is no roll-out cost. With that in mind the benefits takes into account that DANX does not have sufficient data to be able to use the system to its fullest before it has been live for at least a year.
 
 \subsection{Implementation strategy}
-This section describes the recommended implementation strategy. The purpose of this is to have a structured approach for integrating the proposed system.\\
-In regards to the tailored systems an additional factor is taken into account, the system development.\\
-If the development phase is not properly controlled its a high risk factor, this is due to the different aspects that can go wrong during the development, this includes but is not limited to misinterpretation of software specifications and miscommunication between suppliers and customers.\\
-During the development of the new system, it is important to continuously ensure the quality of the system. This means that some DANX employees are going to spend time evaluating the new system, via mockups and/or prototypes and confirm that it is heading in the right direction. \\
-It is important to do the evaluations, in order to make sure that the system meets the requirements and is understandable to the employees of DANX.\\
-It is important to note that the requirements we have provided earlier are not complete, they are on an abstract level, which means that some additional specification is required when actually developing.\\
-If the development is done inhouse at DANX it is important to keep in mind the added strain on the IT development department. If DANX is not aware of this, the risk of the development falling behind, either in time or quality, is significant. \\
-Another important aspect to consider when choosing tailored systems developed out of the house, is whether to request the supplier to hand over all source code of the system to the IT department of DANX.\\
-If the source code is supplied, it ensures that DANX will be able to maintain and develop the system, this obviously puts additional strain on the IT development department.\\
-
-\textit{The above only applies to the tailored systems, the following is general for all three systems.}
-
-When DANX is about to roll out a system, there are several approaches to be considered.\\
-Firstly it is possible to make an all out installment of the system. This means that over a short time gap, all employees who are supposed to use the system, should have it available at their workstation and be able to use it from that moment.
-This has the advantage of being incredibly fast and easy - fast in the sense that it will be a simultaneous rollout to all workstations, easy in the sense that when rolling out to all users at once implications where some of the affected staff is not able to access ‘new’ data is avoided.\\
-On the other hand it contains a higher risk, because if some aspect of the integration goes wrong, all included departments will most likely experience the errors.\\
-Secondly it is possible to roll out the system incrementally. This is done by choosing a group of employees who are going to use the system and gradually increase the amount of employees using the system.
-The advantage gained is that only some employees will need support initially and gradually as more employees start to use the system, the requested IT support can be  provided by  colleagues who have already used the system for some time.
-On the other hand this process is slow and results in creating several workflows.\\
-During the time where only some employees use the system, employees with and without the system will have to do something different in their work practices, this will trouble communication in and between departments.\\
-Before the deployment of the system, all employees will have to receive training in how to use the system, as described in\ref{subsec:qualification}. These training sessions should be planned as close to the deployment of the system, in order to prevent employees from forgetting too much before they start using the system and to minimize the scenario of radical changes being implemented in the system.\\
-There are two ways to conduct the training. Either a full seminar where all the staff of the affected departments is attending or train a few employees in every department and have them train the others.
-Since DANX has a 24/7 hotline(operations department), its not sustainable to pull this department out for training. Neither is it possible to pull out all IT staff at once either, since this cripples the support.
-Therefore in regards to our two proposed ways of conducting training, taking out a few employees for training, and have them train others seems as the best solution.
-
-\textbf{Software integration risks}
+The strategy implemented for creating and implementing the system is included in the solutions appendix.~\ref{chap:solutions}
