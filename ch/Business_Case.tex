@@ -203,35 +203,16 @@ Should DANX require additional functionality at some point, the system may not s
 The system may also be a bit of an overkill if used as a basic solution. Seeing the solution is originally made for providing support, the employee will have to solve/close a ticket every time they create a new one.
 
 \subsection{Finances}
-There has been selected a company cost of capital at 7\% since the interest rate is approximately 0.125\% \cite{bank001} and that DANX is 20 years old\cite{webpage010}. This allows the company to get more profit from the invested money than just putting them in the bank.
+There has been selected a company cost of capital at 7\% since the interest rate is approximately 0.125\% \cite{bank001} and that DANX is 20 years old\cite{webpage010}. This allows the company to get more profit from the invested money than just putting them in the bank. The explanations for the costs and benefits are included in the solutions appendix ~\ref{chap:solutions}.
 
 \subsubsection{Benefits}
 In our cost benefit analysis we have included the following benefits:
-
 \begin{itemize}
 \item Customer loss avoidance
 \item Faster solution to problems
 \item More sale
 \item Less time writing emails
 \end{itemize}
-
-\textbf{Customer loss avoidance}
-Customer loss avoidance is calculated the same way in each of the 3 analysis. Based on the information\cite{bob004} we received from Bob the cost of implementing a new customer is 15,000 DKK for IT, 30,000 DKK for marketing and 40,000 DKK for operation. This is a total of DKK 85,000. Based on the assumptions in the assumption section~\ref{subsub:assumptions} we have included a profit of 85,000 each year. \\
-
-\textbf{Faster solution to problems}
-Faster solutions to problems is calculated the following way:
-\[ 50 \frac{\mathrm{request}}{\mathrm{week}} \times 52 \frac{\mathrm{week}}{\mathrm{year}} \times 0.5 \frac{\mathrm{hour}}{\mathrm{request}} \times 200 \frac{\mathrm{kroner}}{\mathrm{hour}} \times 0.02 = 5200 \frac{\mathrm{kroner}}{\mathrm{year}} \]
-50 requests/week * 52 weeks/year * half an hour (0.5) / request * 0.02 (2\% of the requests can be solved due to the already existing solutions) * 200 DKK/hour. See the assumptions in section~\ref{subsub:assumptions}.
-This is however not included in the basic tailored solution since the solution to a problem is not documented.
-This ends up as 5200 DKK which is another positive number for the first year. As seen in the assumptions section~\ref{subsub:assumptions} the number grows with 2\% each year. This is due to the number of solutions to problems becoming larger each year.\\
-
-\textbf{More sale}
-As seen in section~\ref{subsub:assumptions} DANX is able to gain an additional customer each year, resulting in DANX receiving an additional 2.65 millions each year. This is not included in the initial/investment year since there will be no documentation for the KPIs that year.
-
-\textbf{Less time writing emails}
-Currently the operation spends time writing emails and/or rephrase emails before it is sent to the IT development department \cite{gert006} \cite{lasse003}. With the new system there is no longer a need to do this, as the request will already be written in a ticket. This is calculated as 50 requests/week * 52 weeks/year * 5 min/request * 1/60 (to convert it to hours) * 200 hourly rate.
-\[ 50 \frac{\mathrm{requests}}{\mathrm{week}} \times 52 \frac{\mathrm{week}}{\mathrm{year}} \times 5\frac{\mathrm{minute}}{\mathrm{request}} \times \frac{1}{60} \frac{\mathrm{hour}}{\mathrm{minute}} \times 200\frac{\mathrm{kroner}}{\mathrm{hour}} \approx 43,333 \frac{\mathrm{kroner}}{\mathrm{year}} \]
-This comes out as 43.333, which is the same every year.
 
 \subsubsection{Cost}
 This is the costs that has been identified.
@@ -242,36 +223,6 @@ This is the costs that has been identified.
 \item Additional time spent on documentation
 \item Additional time spent on analysing
 \end{itemize}
-
-\textbf{Initial investment}
-The initial investment differs from solution to solution. They are based on the price of Kayako\cite{webpage008} Since 6 users from the operation\cite{gert014} department and 2 users from the IT department\cite{lahib003} will be using the system the price is DKK 16.242 for the off-the-shelf solution at the time of writing. The tailored extended system will thus be 16.242 * 3 as described in the assumption section~\ref{subsub:assumptions} which is DKK 48.726 and the basic is 16.242 * 2,5 which is 40.605
-
-\textbf{Staff training}
-It is assumed~\ref{subsub:assumptions} that it takes 5 hours per employee for the basic system, 6 hours for the extended system, and an additional 20 hours for the kayako system. The total cost is calculated the following way:
-\[ 5 \frac{\mathrm{hour}}{\mathrm{employee}} \times 8 \hspace{1mm} \mathrm{employee} \times 200 \frac{\mathrm{kroner}}{\mathrm{hour}} = 8,000 \hspace{1mm} \mathrm{kroner} \]
-
-\[ 6 \frac{\mathrm{hour}}{\mathrm{employee}} \times 8 \hspace{1mm} \mathrm{employee} \times 200 \frac{\mathrm{kroner}}{\mathrm{hour}} = 9,600 \hspace{1mm} \mathrm{kroner} \]
-
-\[ \left( 6 \frac{\mathrm{hour}}{\mathrm{employee}} \times 8 \hspace{1mm} \mathrm{employee} + 20 \hspace{1mm} \mathrm{hour} \right) \times 200 \frac{\mathrm{kroner}}{\mathrm{hour}} = 13,600 \hspace{1mm} \mathrm{kroner} \]
-5 hours * 8 employees * an hourly rate of 200 which is 8.000 for the basic system, 9.600 for the extended system and 13.600 for the off-the-shelf solution.
-
-\textbf{Support/Updates}
-Support and updates for kayako is 40\% off the initial price. For the Tailored systems it is 25\% as seen in section~\ref{subsub:assumptions}. For kayako this is 6.497. The tailored extended system is 12.182 and the basic tailored system is 10.151.
-
-\textbf{Additional time spent on documentation}
-It is assumed~\ref{subsub:assumptions} that for the extended system and kayako it takes 14 minutes to document a request, and 7 minutes for the basic system.
-So to calculate the extended version we use:
-\[ 50 \frac{\mathrm{request}}{\mathrm{week}} \times 52 \frac{\mathrm{week}}{\mathrm{year}} \times 14\frac{\mathrm{minute}}{\mathrm{request}} \times \frac{1}{60} \frac{\mathrm{hour}}{\mathrm{minute}} \times 200\frac{\mathrm{kroner}}{\mathrm{hour}} \approx 121,333 \frac{\mathrm{kroner}}{\mathrm{year}} \]
-
-\[ 50 \frac{\mathrm{request}}{\mathrm{week}} \times 52 \frac{\mathrm{week}}{\mathrm{year}} \times 7\frac{\mathrm{minute}}{\mathrm{request}} \times \frac{1}{60} \frac{\mathrm{hour}}{\mathrm{minute}} \times 200\frac{\mathrm{kroner}}{\mathrm{hour}} \approx 60,666 \frac{\mathrm{kroner}}{\mathrm{year}} \]
-
-50 requests/week * 52 weeks/year * 14 min/request * 1/60 to convert minutes to hours * an hourly rate of 200 which is 410.982 in total. For the basic  system 14 is replaced by 7, and the new total is 266.157
-The documentation is required all years including the initial (investment) year and remains consistent.
-
-\textbf{Additional time spent on analysing}
-As seen in the assumptions section~\ref{subsub:assumptions} Gert is responsible for conducting the analysis. To calculate the yearly cost the following formula is used:
-\[ 1 \frac{\mathrm{analysis}}{\mathrm{week}} \times 52 \frac{\mathrm{week}}{\mathrm{year}} \times 1 \frac{\mathrm{hour}}{\mathrm{analysis}} \times 300 \frac{\mathrm{kroner}}{\mathrm{hour}} = 52,840 \frac{\mathrm{kroner}}{\mathrm{year}}\]
-1 analysis/week * 52 weeks/year * 1 hour analysis * an hourly rate of 300. This equals 52.840 and is the same for all systems and every year, except the initial/investment year, which is 0 as not enough data has been recorded.
 
 \subsubsection{Conclusion}
 When evaluating the cost-benefit analysis it is important to look at the net present value. For the Kayako this value is 8,844,444. For the extended tailored solution this value is 8,796,705, and for the basic tailored solution it is 9,036,914.\cite{img002}\cite{img003}\cite{img004}
