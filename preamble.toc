@@ -98,5 +98,5 @@
 \contentsline {section}{\numberline {E.1}Slide from a DANX presentation}{34}
 \contentsline {section}{\numberline {E.2}Cost benefit for tailored basic solution}{35}
 \contentsline {section}{\numberline {E.3}Cost benefit for tailored extended system}{36}
-\contentsline {section}{\numberline {E.4}Cost benefit for off-the-shelf solution kayako}{37}
-\contentsline {section}{\numberline {E.5}Business Canvas}{38}
+\contentsline {section}{\numberline {E.4}Cost benefit for off-the-shelf solution kayako}{36}
+\contentsline {section}{\numberline {E.5}Business Canvas}{37}
