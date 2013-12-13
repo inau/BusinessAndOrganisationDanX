@@ -35,16 +35,17 @@
 \contentsline {subsubsection}{\numberline {1.4.5.1}Employee qualification}{10}
 \contentsline {subsection}{\numberline {1.4.6}Advantages}{10}
 \contentsline {subsubsection}{\numberline {1.4.6.1}Specific for extended tailored system}{11}
-\contentsline {subsection}{\numberline {1.4.7}Specific for off-the-shelf}{11}
-\contentsline {subsection}{\numberline {1.4.8}Disadvantages}{11}
-\contentsline {subsubsection}{\numberline {1.4.8.1}Common for all system}{11}
-\contentsline {subsubsection}{\numberline {1.4.8.2}Specific for extended tailored system}{11}
-\contentsline {subsubsection}{\numberline {1.4.8.3}Specific for off-the-shelf system}{12}
-\contentsline {subsection}{\numberline {1.4.9}Finances}{12}
-\contentsline {subsubsection}{\numberline {1.4.9.1}Benefits}{12}
-\contentsline {subsubsection}{\numberline {1.4.9.2}Cost}{13}
-\contentsline {subsubsection}{\numberline {1.4.9.3}Conclusion}{14}
-\contentsline {subsection}{\numberline {1.4.10}Implementation strategy}{14}
+\contentsline {subsubsection}{\numberline {1.4.6.2}Specific for off-the-shelf}{11}
+\contentsline {subsection}{\numberline {1.4.7}Disadvantages}{11}
+\contentsline {subsubsection}{\numberline {1.4.7.1}Common for all system}{11}
+\contentsline {subsubsection}{\numberline {1.4.7.2}Specific for extended tailored system}{11}
+\contentsline {subsubsection}{\numberline {1.4.7.3}Specific for off-the-shelf system}{12}
+\contentsline {subsection}{\numberline {1.4.8}Finances}{12}
+\contentsline {subsubsection}{\numberline {1.4.8.1}Benefits}{12}
+\contentsline {subsubsection}{\numberline {1.4.8.2}Cost}{12}
+\contentsline {subsubsection}{\numberline {1.4.8.3}Cost benefit charts}{13}
+\contentsline {subsubsection}{\numberline {1.4.8.4}Conclusion}{14}
+\contentsline {subsection}{\numberline {1.4.9}Implementation strategy}{14}
 \contentsline {chapter}{Appendices}{15}
 \contentsline {chapter}{\numberline {A}Project charter}{16}
 \contentsline {section}{\numberline {A.1}Introduction}{16}
@@ -92,11 +93,14 @@
 \contentsline {chapter}{\numberline {D}Solutions}{30}
 \contentsline {section}{\numberline {D.1}Requirements}{30}
 \contentsline {subsection}{\numberline {D.1.1}Additional requirements}{31}
-\contentsline {section}{\numberline {D.2}Assumptions}{31}
-\contentsline {section}{\numberline {D.3}Implementation strategy}{31}
-\contentsline {chapter}{\numberline {E}Figures}{34}
-\contentsline {section}{\numberline {E.1}Slide from a DANX presentation}{34}
-\contentsline {section}{\numberline {E.2}Cost benefit for tailored basic solution}{35}
-\contentsline {section}{\numberline {E.3}Cost benefit for tailored extended system}{35}
-\contentsline {section}{\numberline {E.4}Cost benefit for off-the-shelf solution kayako}{36}
-\contentsline {section}{\numberline {E.5}Business Canvas}{37}
+\contentsline {section}{\numberline {D.2}Finances}{31}
+\contentsline {subsubsection}{\numberline {D.2.0.1}Benefits}{31}
+\contentsline {subsubsection}{\numberline {D.2.0.2}Cost}{31}
+\contentsline {subsection}{\numberline {D.2.1}Assumptions}{32}
+\contentsline {section}{\numberline {D.3}Implementation strategy}{33}
+\contentsline {chapter}{\numberline {E}Figures}{35}
+\contentsline {section}{\numberline {E.1}Slide from a DANX presentation}{35}
+\contentsline {section}{\numberline {E.2}Cost benefit for tailored basic solution}{36}
+\contentsline {section}{\numberline {E.3}Cost benefit for tailored extended system}{36}
+\contentsline {section}{\numberline {E.4}Cost benefit for off-the-shelf solution kayako}{37}
+\contentsline {section}{\numberline {E.5}Business Canvas}{38}
